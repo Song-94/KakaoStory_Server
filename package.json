@@ -1,0 +1,22 @@
+{
+  "name": "kakaostory_server",
+  "version": "1.0.0",
+  "description": "KakaoStory Server\r cmd: npm start",
+  "main": "main.mjs",
+  "scripts": {
+    "start": "node main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "keywords": []
+}
